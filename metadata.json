@@ -1,0 +1,4 @@
+{
+  "name": "CyberCore Command",
+  "description": "Near real-time network anomaly detection system with an XGBoost ML model, WebSocket streaming, and a React-based tactical command dashboard."
+}
