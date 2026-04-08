@@ -114,11 +114,13 @@ Docker sayesinde Python, Node.js veya herhangi bir bağımlılık yüklemenize g
 # Depoyu klonlayın
 git clone https://github.com/galiperbas/cybercore-command.git
 cd cybercore-command
+```
 
-# (İsteğe bağlı) Ortam değişkenlerini yapılandırın
-cp .env.example .env
-# .env dosyasını açıp GEMINI_API_KEY değerini girin (AI sohbet botu için)
+Projeyi çalıştırmadan önce ortam değişkenlerini ayarlamanız gerekmektedir. Kök dizinde bulunan `.env.example` dosyasını kopyalayarak yeni bir `.env` dosyası oluşturun:
+`cp .env.example .env`
+Ardından oluşturduğunuz bu `.env` dosyasını açarak gerekli yapılandırmaları ortamınıza göre düzenleyin. *(Örn: AI sohbet botu için GEMINI_API_KEY)*
 
+```bash
 # Tüm servisleri derleyip başlatın
 docker compose up --build
 ```
